@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/artdecocode/-artdeco-clean-stack.git"
+    "url": "git://github.com/artdecocode/clean-stack.git"
   },
   "keywords": [
     "@artdeco/clean-stack"
@@ -31,9 +31,9 @@
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artdecocode/-artdeco-clean-stack/issues"
+    "url": "https://github.com/artdecocode/clean-stack/issues"
   },
-  "homepage": "https://github.com/artdecocode/-artdeco-clean-stack#readme",
+  "homepage": "https://github.com/artdecocode/clean-stack#readme",
   "devDependencies": {
     "alamode": "1.4.0",
     "documentary": "1.15.1",
