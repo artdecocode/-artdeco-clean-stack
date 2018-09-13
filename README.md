@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40artdeco%2Fclean-stack.svg)](https://npmjs.org/package/@artdeco/clean-stack)
 
-`@artdeco/clean-stack` is a fork of clean-stack to remove internal Node.js lines from error stacks.
+`@artdeco/clean-stack` is a fork of clean-stack to remove internal Node.js lines from error stacks, as well as lines from specific modules.
 
 ```sh
 yarn add -E @artdeco/clean-stack
@@ -34,7 +34,7 @@ __<a name="config">`Config`</a>__: Options for the program.
 | pretty        | _boolean_  | Replace the absolute path to the home directory with the `~`. | `false`       |
 | ignoreModules | _string[]_ | Which modules to ignore in the path.                          | `['pirates']` |
 
-Remove unuseful internal Node.js lines from the error stack.
+Remove unuseful internal Node.js lines from the error stack. Any other modules to ignore can be passed in the `ignoreModules` option.
 
 ```js
 /* yarn example/ */
