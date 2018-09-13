@@ -26,7 +26,13 @@
     "url": "git://github.com/artdecocode/clean-stack.git"
   },
   "keywords": [
-    "@artdeco/clean-stack"
+    "@artdeco/clean-stack",
+    "stack",
+    "error",
+    "trace",
+    "internal",
+    "loader",
+    "pirates"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
