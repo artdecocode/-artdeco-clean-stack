@@ -1,6 +1,6 @@
 {
   "name": "@artdeco/clean-stack",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A utility to remove internal Node.js lines and specific modules from error stacks.",
   "main": "build",
   "scripts": {
